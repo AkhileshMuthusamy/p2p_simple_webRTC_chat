@@ -1,0 +1,22 @@
+{
+  "name": "p2p_video_chat_webrtc",
+  "version": "1.0.0",
+  "description": "Simple Peer to Peer video chat",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "webRTC",
+    "video",
+    "chat"
+  ],
+  "author": "Akhilesh Muthusamy",
+  "license": "ISC",
+  "dependencies": {
+    "simple-peer": "^9.11.0"
+  },
+  "devDependencies": {
+    "rollup": "^2.62.0"
+  }
+}
