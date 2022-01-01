@@ -4,7 +4,7 @@
   "description": "Simple Peer to Peer video chat",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "budo index.js:bundle.js"
   },
   "keywords": [
     "webRTC",
@@ -17,6 +17,6 @@
     "simple-peer": "^9.11.0"
   },
   "devDependencies": {
-    "rollup": "^2.62.0"
+    "budo": "^11.6.4"
   }
 }
